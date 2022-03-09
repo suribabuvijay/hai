@@ -16,3 +16,9 @@ start httpd
 add firewall http
 yum --enablerepo=remi install phpmyadmin
 
+
+
+akfjlkfjlk
+dfaklflakjfkla
+dkfjaklflkasdjf
+adflkjfl
