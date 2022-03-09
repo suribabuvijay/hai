@@ -1,0 +1,17 @@
+#!/bin/bash
+yum update -y
+amazon-linux-extras install nginx1.12 -y
+service nginx start
+systemctl enable nginx
+echo "<h1>HomePageServer-2</h1>" >> /usr/share/nginx/html/index.html
+
+-----------------------------------------
+mysql
+
+firewall-cmd --permanent --add-service=mysql
+firewall-cmd --reload
+install remi repo from rpmfind.net
+install httpd
+start httpd
+add firewall http
+yum --enablerepo=remi install phpmyadmin
